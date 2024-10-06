@@ -1,0 +1,153 @@
+body {
+  border: 2px solid black;
+}
+
+.item-1 {
+  background-color: lightgray;
+  color: blue;
+  height: 120px;
+  display: flex;
+  justify-content: center; /* För att placera innehållet i mitten horisontellt */
+  align-items: center; /* För att centrera innehållet vertikalt */
+  position: relative; /* För cirklarnas placering */
+  border-bottom: 1px solid black;
+}
+
+.ringar {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: 30px; /* Placera cirklarna ovanför */
+  left: 160px; /* Justera deras horisontella placering */
+}
+
+.cirkel {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.coicons {
+  display: flex;
+  justify-content: space-between; /* Placera företagsnamnet till vänster och ikonerna till höger */
+  align-items: center; /* Centrera vertikalt */
+  width: 100%; /* Låt coicons ta upp hela bredden av item-1 */
+  padding: 0 50px; /* Ge lite utrymme till vänster och höger */
+  font-size: 25px;
+  margin-left: 85px;
+}
+.companyname {
+  text-decoration-line: underline;
+}
+
+.fa {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h3 {
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+.messi {
+  margin-left: 70px;
+  border-bottom: 1px solid black;
+  display: block;
+  width: 870px;
+  padding: 5px;
+}
+
+.rad1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 50px;
+  align-items: flex-start; /* Justera så att objekten inte centrerar vertikalt */
+  gap: 20px; /* Minska gapet för att minska mellanrummet */
+  margin-top: 28px;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Avstånd mellan bild och text */
+
+  padding-bottom: 10px;
+}
+
+.text1 {
+  flex-grow: 1; /* Låter texten växa för att fylla utrymmet */
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+  max-width: unset; /* Ta bort maxbreddsbegränsningen */
+}
+
+.rundruta1 {
+  flex-shrink: 0; /* Förhindra att den krymper */
+  border: 2px solid black;
+  width: 300px;
+  height: 370px;
+  border-radius: 20px;
+  position: relative;
+  top: -120px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.runditems {
+  padding-left: 20px;
+}
+
+.undertext {
+  margin-left: 70px;
+  margin-top: -75px;
+}
+
+#img2 {
+  float: right;
+  margin-right: 500px;
+}
+
+p {
+  max-width: 750px;
+}
+
+.endline {
+  border-bottom: 2px solid black;
+  padding-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.endlinks {
+  background-color: darkgray;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 70px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  gap: 2em;
+}
+
+.textendhela {
+  margin-left: 120px;
+  padding-bottom: 25px;
+}
+
+.sistarad {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.tomyta {
+  height: 400px;
+}
